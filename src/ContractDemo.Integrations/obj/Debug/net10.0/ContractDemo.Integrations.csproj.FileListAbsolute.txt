@@ -1,0 +1,12 @@
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.AssemblyInfoInputs.cache
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.AssemblyInfo.cs
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.csproj.CoreCompileInputs.cache
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/bin/Debug/net10.0/ContractDemo.Integrations.deps.json
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/bin/Debug/net10.0/ContractDemo.Integrations.dll
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/bin/Debug/net10.0/ContractDemo.Integrations.pdb
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.csproj.AssemblyReference.cache
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.dll
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/refint/ContractDemo.Integrations.dll
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ContractDemo.Integrations.pdb
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/obj/Debug/net10.0/ref/ContractDemo.Integrations.dll

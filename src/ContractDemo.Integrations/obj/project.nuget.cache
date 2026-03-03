@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bXyvyZGQwdg=",
+  "success": true,
+  "projectFilePath": "/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Integrations/ContractDemo.Integrations.csproj",
+  "expectedPackageFiles": [
+    "/Users/olusolaakinsulere/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

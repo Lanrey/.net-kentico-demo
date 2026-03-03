@@ -1,0 +1,15 @@
+@page
+@model ContractDemo.Web.Pages.CampaignLabModel
+@{
+    ViewData["Title"] = "Campaign Lab";
+}
+
+<h2>Campaign Lab (Vue 3)</h2>
+<p class="text-muted">Fast pre-qualification widget for marketing landing pages.</p>
+
+<div id="campaign-lab" class="border rounded p-3"></div>
+
+@section Scripts {
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="~/js/campaign-lab.js" asp-append-version="true"></script>
+}

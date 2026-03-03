@@ -1,0 +1,12 @@
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.AssemblyInfoInputs.cache
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.AssemblyInfo.cs
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.csproj.CoreCompileInputs.cache
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/bin/Debug/net10.0/ContractDemo.Features.deps.json
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/bin/Debug/net10.0/ContractDemo.Features.dll
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/bin/Debug/net10.0/ContractDemo.Features.pdb
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.csproj.AssemblyReference.cache
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.dll
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/refint/ContractDemo.Features.dll
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ContractDemo.Features.pdb
+/Users/olusolaakinsulere/Documents/doccy/work/personal/personal-projects/contract-position/src/ContractDemo.Features/obj/Debug/net10.0/ref/ContractDemo.Features.dll

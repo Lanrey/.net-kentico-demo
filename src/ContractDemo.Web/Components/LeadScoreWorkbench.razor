@@ -1,0 +1,83 @@
+@using System.Net.Http.Json
+@inject IHttpClientFactory HttpClientFactory
+@inject NavigationManager NavigationManager
+
+<h3 class="mb-3">Lead Scoring Workbench (Blazor)</h3>
+
+<div class="row g-3">
+    <div class="col-md-4">
+        <label class="form-label">Company Size</label>
+        <input class="form-control" type="number" @bind="_companySize" min="1" />
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Region</label>
+        <select class="form-select" @bind="_region">
+            <option>North America</option>
+            <option>Europe</option>
+            <option>Africa</option>
+            <option>APAC</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label class="form-label">Industry</label>
+        <select class="form-select" @bind="_industry">
+            <option>FinTech</option>
+            <option>HealthTech</option>
+            <option>Retail</option>
+            <option>Manufacturing</option>
+        </select>
+    </div>
+</div>
+
+<div class="form-check mt-3">
+    <input class="form-check-input" type="checkbox" @bind="_hasBudget" id="hasBudget" />
+    <label class="form-check-label" for="hasBudget">Has confirmed budget</label>
+</div>
+
+<div class="form-check">
+    <input class="form-check-input" type="checkbox" @bind="_requestedDemo" id="requestedDemo" />
+    <label class="form-check-label" for="requestedDemo">Requested demo</label>
+</div>
+
+<button class="btn btn-primary mt-3" @onclick="RunScoringAsync">Run scoring</button>
+
+@if (!string.IsNullOrWhiteSpace(_result))
+{
+    <div class="alert alert-info mt-3">@_result</div>
+}
+
+@code {
+    private int _companySize = 250;
+    private bool _hasBudget = true;
+    private bool _requestedDemo = true;
+    private string _region = "North America";
+    private string _industry = "FinTech";
+    private string? _result;
+
+    private async Task RunScoringAsync()
+    {
+        var client = HttpClientFactory.CreateClient();
+        client.BaseAddress = new Uri(NavigationManager.BaseUri);
+
+        var payload = new
+        {
+            companySize = _companySize,
+            hasBudget = _hasBudget,
+            requestedDemo = _requestedDemo,
+            region = _region,
+            industry = _industry
+        };
+
+        var response = await client.PostAsJsonAsync("api/leads/score", payload);
+        if (!response.IsSuccessStatusCode)
+        {
+            _result = "Unable to score lead.";
+            return;
+        }
+
+        var data = await response.Content.ReadFromJsonAsync<LeadScoreViewModel>();
+        _result = data is null ? "No score returned." : $"Score: {data.Score} | Tier: {data.Tier}";
+    }
+
+    private sealed record LeadScoreViewModel(int Score, string Tier, string Reasoning);
+}
